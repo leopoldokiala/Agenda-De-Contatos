@@ -1,16 +1,27 @@
-# agenda_de_contatos
+### Agenda de Contatos (Flutter)
 
-A new Flutter project.
+Aplicativo de agenda de contatos desenvolvido com Flutter, que permite ao usuário cadastrar, editar, excluir, visualizar e ligar para contatos diretamente do app. Os dados são armazenados localmente utilizando o SQLite (sqflite), e o usuário também pode associar uma imagem de perfil a cada contato usando a câmera do dispositivo.
 
-## Getting Started
+### ✨ Funcionalidades
+✅ Listar todos os contatos salvos.
 
-This project is a starting point for a Flutter application.
+➕ Adicionar novos contatos com nome, e-mail, telefone e imagem.
 
-A few resources to get you started if this is your first Flutter project:
+✏️ Editar contatos existentes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+❌ Excluir contatos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📞 Ligar diretamente para um contato (usando url_launcher).
+
+🔠 Ordenar lista de contatos de A-Z ou de Z-A.
+
+📷 Tirar foto para usar como imagem do contato (com image_picker).
+
+💾 Armazenamento local usando sqflite.
+
+### Tecnologias utilizadas
+Flutter (Material Design)
+Dart
+Sqflite (SQLite para persistência local)
+Image Picker (captura de imagem)
+URL Launcher (realizar chamadas telefônicas)
