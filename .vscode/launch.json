@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "agenda_de_contatos",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/ui/main.dart"
+        },
+        {
+            "name": "agenda_de_contatos (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/ui/main.dart"
+        },
+        {
+            "name": "agenda_de_contatos (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/ui/main.dart"
+        }
+    ]
+}
